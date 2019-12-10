@@ -1,12 +1,11 @@
 {
   "name": "Isometric Contributions",
-  "version": "1.0.13",
+  "version": "1.0.29",
   "description": "Renders an isometric pixel view of GitHub contribution graphs.",
   "content_scripts": [ {
     "css": [ "iso.css" ],
     "js": [ "jquery.min.js", "obelisk.min.js", "iso.js" ],
-    "matches": [ "http://*/*", "https://*/*" ],
-    "run_at": "document_start"
+    "matches": [ "http://*/*", "https://*/*" ]
   }],
   "permissions": [
     "storage"
